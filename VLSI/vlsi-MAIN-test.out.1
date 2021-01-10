@@ -1,0 +1,106 @@
+
+**** 11/23/20 14:33:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "MAIN-test"  [ C:\Users\Karan\Documents\PSpice\VLSI\vlsi-main-test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "vlsi-main-test.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad 9.1\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 1ms 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\vlsi-MAIN.net" 
+
+
+
+**** INCLUDING vlsi-MAIN.net ****
+* source VLSI
+M_FA_M6         N07718 FA_N00946 0 0 MbreakN           
+M_FA_HA1_M11         FA_HA1_N09191 $D_HI FA_HA1_GND FA_HA1_GND MbreakN         
++   
+M_FA_HA1_M5         FA_HA1_VDD $D_HI FA_HA1_N06579 FA_HA1_VDD MbreakP          
++  
+M_FA_HA1_M2         FA_HA1_N06008 $D_HI FA_HA1_GND FA_HA1_GND MbreakN          
++  
+M_FA_HA1_M4         FA_HA1_VDD $D_HI FA_HA1_N06579 FA_HA1_VDD MbreakP          
++  
+M_FA_HA1_M12         FA_HA1_N09404 $D_HI FA_N00311 FA_HA1_VDD MbreakP          
++  
+M_FA_HA1_M1         FA_HA1_N06579 $D_HI FA_HA1_N06008 FA_HA1_GND MbreakN       
++     
+M_FA_HA1_M6         FA_HA1_VDD FA_HA1_N06579 FA_N01184 FA_HA1_VDD MbreakP      
++      
+M_FA_HA1_M13         FA_HA1_N09404 $D_HI FA_N00311 FA_HA1_VDD MbreakP          
++  
+M_FA_HA1_M3         FA_N01184 FA_HA1_N06579 FA_HA1_GND FA_HA1_GND MbreakN      
++      
+M_FA_HA1_M16         FA_HA1_VDD $D_HI FA_HA1_N11593 FA_HA1_VDD MbreakP         
++   
+M_FA_HA1_M8         FA_HA1_N09076 FA_HA1_N11628 FA_HA1_GND FA_HA1_GND MbreakN  
++          
+M_FA_HA1_M14         FA_HA1_VDD FA_HA1_N11593 FA_HA1_N09404 FA_HA1_VDD MbreakP 
++           
+M_FA_HA1_M17         FA_HA1_VDD $D_HI FA_HA1_N11628 FA_HA1_VDD MbreakP         
++   
+M_FA_HA1_M9         FA_N00311 $D_HI FA_HA1_N09191 FA_HA1_GND MbreakN           
+M_FA_HA1_M15         FA_HA1_VDD FA_HA1_N11628 FA_HA1_N09404 FA_HA1_VDD MbreakP 
++           
+M_FA_HA1_M18         FA_HA1_N11593 $D_HI FA_HA1_GND FA_HA1_GND MbreakN         
++   
+M_FA_HA1_M10         FA_N00311 FA_HA1_N11593 FA_HA1_N09076 FA_HA1_GND MbreakN  
++          
+M_FA_HA1_M19         FA_HA1_N11628 $D_HI FA_HA1_GND FA_HA1_GND MbreakN         
++   
+M_FA_M1         FA_N00946 FA_N01184 0 0 MbreakN           
+M_FA_HA2_M11         FA_HA2_N09191 FA_N00311 0 0 MbreakN           
+M_FA_HA2_M5         $D_HI FA_N00311 FA_HA2_N06579 $D_HI MbreakP           
+M_FA_HA2_M2         FA_HA2_N06008 FA_N00311 0 0 MbreakN           
+M_FA_HA2_M4         $D_HI 0 FA_HA2_N06579 $D_HI MbreakP           
+M_FA_HA2_M12         FA_HA2_N09404 0 N07725 $D_HI MbreakP           
+M_FA_HA2_M1         FA_HA2_N06579 0 FA_HA2_N06008 0 MbreakN           
+M_FA_HA2_M6         $D_HI FA_HA2_N06579 FA_N01242 $D_HI MbreakP           
+M_FA_HA2_M13         FA_HA2_N09404 FA_N00311 N07725 $D_HI MbreakP           
+M_FA_HA2_M3         FA_N01242 FA_HA2_N06579 0 0 MbreakN           
+M_FA_HA2_M16         $D_HI 0 FA_HA2_N11593 $D_HI MbreakP           
+M_FA_HA2_M8         FA_HA2_N09076 FA_HA2_N11628 0 0 MbreakN           
+M_FA_HA2_M14         $D_HI FA_HA2_N11593 FA_HA2_N09404 $D_HI MbreakP           
+M_FA_HA2_M17         $D_HI FA_N00311 FA_HA2_N11628 $D_HI MbreakP           
+M_FA_HA2_M9         N07725 0 FA_HA2_N09191 0 MbreakN           
+M_FA_HA2_M15         $D_HI FA_HA2_N11628 FA_HA2_N09404 $D_HI MbreakP           
+M_FA_HA2_M18         FA_HA2_N11593 0 0 0 MbreakN           
+M_FA_HA2_M10         N07725 FA_HA2_N11593 FA_HA2_N09076 0 MbreakN           
+M_FA_HA2_M19         FA_HA2_N11628 FA_N00311 0 0 MbreakN           
+M_FA_M3         FA_N01015 FA_N01242 FA_N00946 $D_HI MbreakP           
+M_FA_M2         FA_N00946 FA_N01242 0 0 MbreakN           
+M_FA_M4         $D_HI FA_N01184 FA_N01015 $D_HI MbreakP           
+M_FA_M5         $D_HI FA_N00946 N07718 $D_HI MbreakP           
+V_V3         $D_HI 0 5Vdc
+
+**** RESUMING vlsi-main-test.sim.cir ****
+.END
+
+ERROR -- Node FA_HA1_N09191 is floating
+ERROR -- Node FA_HA1_GND is floating
+ERROR -- Node FA_HA1_VDD is floating
+ERROR -- Node FA_HA1_N06579 is floating
+ERROR -- Node FA_HA1_N06008 is floating
+ERROR -- Node FA_HA1_N09404 is floating
+ERROR -- Node FA_N00311 is floating
+ERROR -- Node FA_N01184 is floating
+ERROR -- Node FA_HA1_N11593 is floating
+ERROR -- Node FA_HA1_N09076 is floating
+ERROR -- Node FA_HA1_N11628 is floating

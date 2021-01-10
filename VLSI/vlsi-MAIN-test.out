@@ -1,0 +1,259 @@
+
+**** 11/23/20 18:59:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "MAIN-test"  [ C:\Users\Karan\Documents\PSpice\VLSI\vlsi-main-test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "vlsi-main-test.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad 9.1\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 1ms 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\vlsi-MAIN.net" 
+
+
+
+**** INCLUDING vlsi-MAIN.net ****
+* source VLSI
+M_VEDIC_2x2_AND_1_M5         $D_HI 0 VEDIC_2x2_AND_1_N06579 $D_HI MbreakP      
++      
+M_VEDIC_2x2_AND_1_M2         VEDIC_2x2_AND_1_N06008 0 0 0 MbreakN           
+M_VEDIC_2x2_AND_1_M4         $D_HI $D_HI VEDIC_2x2_AND_1_N06579 $D_HI MbreakP  
++          
+M_VEDIC_2x2_AND_1_M1         VEDIC_2x2_AND_1_N06579 $D_HI
++  VEDIC_2x2_AND_1_N06008 0 MbreakN           
+M_VEDIC_2x2_AND_1_M6         $D_HI VEDIC_2x2_AND_1_N06579 N08256 $D_HI MbreakP 
++           
+M_VEDIC_2x2_AND_1_M3         N08256 VEDIC_2x2_AND_1_N06579 0 0 MbreakN         
++   
+M_VEDIC_2x2_HA_1_M11         VEDIC_2x2_HA_1_N09191 VEDIC_2x2_N00381 0 0 MbreakN
++            
+M_VEDIC_2x2_HA_1_M5         $D_HI VEDIC_2x2_N00381 VEDIC_2x2_HA_1_N06579 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_1_M2         VEDIC_2x2_HA_1_N06008 VEDIC_2x2_N00381 0 0 MbreakN 
++           
+M_VEDIC_2x2_HA_1_M4         $D_HI VEDIC_2x2_N00370 VEDIC_2x2_HA_1_N06579 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_1_M12         VEDIC_2x2_HA_1_N09404 VEDIC_2x2_N00370 N08263
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_1_M1         VEDIC_2x2_HA_1_N06579 VEDIC_2x2_N00370
++  VEDIC_2x2_HA_1_N06008 0 MbreakN           
+M_VEDIC_2x2_HA_1_M6         $D_HI VEDIC_2x2_HA_1_N06579 VEDIC_2x2_N00445 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_1_M13         VEDIC_2x2_HA_1_N09404 VEDIC_2x2_N00381 N08263
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_1_M3         VEDIC_2x2_N00445 VEDIC_2x2_HA_1_N06579 0 0 MbreakN 
++           
+M_VEDIC_2x2_HA_1_M16         $D_HI VEDIC_2x2_N00370 VEDIC_2x2_HA_1_N11593 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_1_M8         VEDIC_2x2_HA_1_N09076 VEDIC_2x2_HA_1_N11628 0 0
++  MbreakN           
+M_VEDIC_2x2_HA_1_M14         $D_HI VEDIC_2x2_HA_1_N11593 VEDIC_2x2_HA_1_N09404
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_1_M17         $D_HI VEDIC_2x2_N00381 VEDIC_2x2_HA_1_N11628 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_1_M9         N08263 VEDIC_2x2_N00370 VEDIC_2x2_HA_1_N09191 0
++  MbreakN           
+M_VEDIC_2x2_HA_1_M15         $D_HI VEDIC_2x2_HA_1_N11628 VEDIC_2x2_HA_1_N09404
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_1_M18         VEDIC_2x2_HA_1_N11593 VEDIC_2x2_N00370 0 0 MbreakN
++            
+M_VEDIC_2x2_HA_1_M10         N08263 VEDIC_2x2_HA_1_N11593 VEDIC_2x2_HA_1_N09076
++  0 MbreakN           
+M_VEDIC_2x2_HA_1_M19         VEDIC_2x2_HA_1_N11628 VEDIC_2x2_N00381 0 0 MbreakN
++            
+M_VEDIC_2x2_AND_2_M5         $D_HI 0 VEDIC_2x2_AND_2_N06579 $D_HI MbreakP      
++      
+M_VEDIC_2x2_AND_2_M2         VEDIC_2x2_AND_2_N06008 0 0 0 MbreakN           
+M_VEDIC_2x2_AND_2_M4         $D_HI $D_HI VEDIC_2x2_AND_2_N06579 $D_HI MbreakP  
++          
+M_VEDIC_2x2_AND_2_M1         VEDIC_2x2_AND_2_N06579 $D_HI
++  VEDIC_2x2_AND_2_N06008 0 MbreakN           
+M_VEDIC_2x2_AND_2_M6         $D_HI VEDIC_2x2_AND_2_N06579 VEDIC_2x2_N00370
++  $D_HI MbreakP           
+M_VEDIC_2x2_AND_2_M3         VEDIC_2x2_N00370 VEDIC_2x2_AND_2_N06579 0 0
++  MbreakN           
+M_VEDIC_2x2_AND_3_M5         $D_HI $D_HI VEDIC_2x2_AND_3_N06579 $D_HI MbreakP  
++          
+M_VEDIC_2x2_AND_3_M2         VEDIC_2x2_AND_3_N06008 $D_HI 0 0 MbreakN          
++  
+M_VEDIC_2x2_AND_3_M4         $D_HI $D_HI VEDIC_2x2_AND_3_N06579 $D_HI MbreakP  
++          
+M_VEDIC_2x2_AND_3_M1         VEDIC_2x2_AND_3_N06579 $D_HI
++  VEDIC_2x2_AND_3_N06008 0 MbreakN           
+M_VEDIC_2x2_AND_3_M6         $D_HI VEDIC_2x2_AND_3_N06579 VEDIC_2x2_N00381
++  $D_HI MbreakP           
+M_VEDIC_2x2_AND_3_M3         VEDIC_2x2_N00381 VEDIC_2x2_AND_3_N06579 0 0
++  MbreakN           
+M_VEDIC_2x2_HA_2_M11         VEDIC_2x2_HA_2_N09191 VEDIC_2x2_N00417 0 0 MbreakN
++            
+M_VEDIC_2x2_HA_2_M5         $D_HI VEDIC_2x2_N00417 VEDIC_2x2_HA_2_N06579 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_2_M2         VEDIC_2x2_HA_2_N06008 VEDIC_2x2_N00417 0 0 MbreakN 
++           
+M_VEDIC_2x2_HA_2_M4         $D_HI VEDIC_2x2_N00445 VEDIC_2x2_HA_2_N06579 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_2_M12         VEDIC_2x2_HA_2_N09404 VEDIC_2x2_N00445 N08270
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_2_M1         VEDIC_2x2_HA_2_N06579 VEDIC_2x2_N00445
++  VEDIC_2x2_HA_2_N06008 0 MbreakN           
+M_VEDIC_2x2_HA_2_M6         $D_HI VEDIC_2x2_HA_2_N06579 N08277 $D_HI MbreakP   
++         
+M_VEDIC_2x2_HA_2_M13         VEDIC_2x2_HA_2_N09404 VEDIC_2x2_N00417 N08270
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_2_M3         N08277 VEDIC_2x2_HA_2_N06579 0 0 MbreakN           
+M_VEDIC_2x2_HA_2_M16         $D_HI VEDIC_2x2_N00445 VEDIC_2x2_HA_2_N11593 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_2_M8         VEDIC_2x2_HA_2_N09076 VEDIC_2x2_HA_2_N11628 0 0
++  MbreakN           
+M_VEDIC_2x2_HA_2_M14         $D_HI VEDIC_2x2_HA_2_N11593 VEDIC_2x2_HA_2_N09404
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_2_M17         $D_HI VEDIC_2x2_N00417 VEDIC_2x2_HA_2_N11628 $D_HI
++  MbreakP           
+M_VEDIC_2x2_HA_2_M9         N08270 VEDIC_2x2_N00445 VEDIC_2x2_HA_2_N09191 0
++  MbreakN           
+M_VEDIC_2x2_HA_2_M15         $D_HI VEDIC_2x2_HA_2_N11628 VEDIC_2x2_HA_2_N09404
++  $D_HI MbreakP           
+M_VEDIC_2x2_HA_2_M18         VEDIC_2x2_HA_2_N11593 VEDIC_2x2_N00445 0 0 MbreakN
++            
+M_VEDIC_2x2_HA_2_M10         N08270 VEDIC_2x2_HA_2_N11593 VEDIC_2x2_HA_2_N09076
++  0 MbreakN           
+M_VEDIC_2x2_HA_2_M19         VEDIC_2x2_HA_2_N11628 VEDIC_2x2_N00417 0 0 MbreakN
++            
+M_VEDIC_2x2_AND_4_M5         $D_HI $D_HI VEDIC_2x2_AND_4_N06579 $D_HI MbreakP  
++          
+M_VEDIC_2x2_AND_4_M2         VEDIC_2x2_AND_4_N06008 $D_HI 0 0 MbreakN          
++  
+M_VEDIC_2x2_AND_4_M4         $D_HI $D_HI VEDIC_2x2_AND_4_N06579 $D_HI MbreakP  
++          
+M_VEDIC_2x2_AND_4_M1         VEDIC_2x2_AND_4_N06579 $D_HI
++  VEDIC_2x2_AND_4_N06008 0 MbreakN           
+M_VEDIC_2x2_AND_4_M6         $D_HI VEDIC_2x2_AND_4_N06579 VEDIC_2x2_N00417
++  $D_HI MbreakP           
+M_VEDIC_2x2_AND_4_M3         VEDIC_2x2_N00417 VEDIC_2x2_AND_4_N06579 0 0
++  MbreakN           
+V_V3         $D_HI 0 5Vdc
+
+**** RESUMING vlsi-main-test.sim.cir ****
+.END
+
+**** 11/23/20 18:59:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "MAIN-test"  [ C:\Users\Karan\Documents\PSpice\VLSI\vlsi-main-test.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakP         MbreakN         
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    0               0            
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    0               0            
+       XPART    0               0            
+
+
+**** 11/23/20 18:59:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "MAIN-test"  [ C:\Users\Karan\Documents\PSpice\VLSI\vlsi-main-test.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($D_HI)    5.0000  (N08256) 50.10E-09 (N08263)    5.0000 (N08270)    5.0000     
+
+(N08277) 50.10E-09 (VEDIC_2x2_N00370) 50.10E-09                                 
+
+(VEDIC_2x2_N00381)    5.0000          (VEDIC_2x2_N00417)    5.0000              
+
+(VEDIC_2x2_N00445) 50.10E-09          (VEDIC_2x2_HA_1_N06008)-5.305E-15         
+
+(VEDIC_2x2_HA_1_N06579)    5.0000     (VEDIC_2x2_HA_1_N09076)    4.9990         
+
+(VEDIC_2x2_HA_1_N09191) 242.9E-18     (VEDIC_2x2_HA_1_N09404)    5.0000         
+
+(VEDIC_2x2_HA_1_N11593)    5.0000     (VEDIC_2x2_HA_1_N11628) 50.10E-09         
+
+(VEDIC_2x2_HA_2_N06008)-6.885E-15     (VEDIC_2x2_HA_2_N06579)    5.0000         
+
+(VEDIC_2x2_HA_2_N09076)    4.9990     (VEDIC_2x2_HA_2_N09191) 242.7E-18         
+
+(VEDIC_2x2_HA_2_N09404)    5.0000     (VEDIC_2x2_HA_2_N11593)    5.0000         
+
+(VEDIC_2x2_HA_2_N11628) 50.10E-09     (VEDIC_2x2_AND_1_N06008)    4.9990        
+
+(VEDIC_2x2_AND_1_N06579)    5.0000    (VEDIC_2x2_AND_2_N06008)    4.9990        
+
+(VEDIC_2x2_AND_2_N06579)    5.0000    (VEDIC_2x2_AND_3_N06008) 100.2E-09        
+
+(VEDIC_2x2_AND_3_N06579) 200.4E-09    (VEDIC_2x2_AND_4_N06008) 100.2E-09        
+
+(VEDIC_2x2_AND_4_N06579) 200.4E-09    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -1.503E-10
+
+    TOTAL POWER DISSIPATION   7.51E-10  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .19
+

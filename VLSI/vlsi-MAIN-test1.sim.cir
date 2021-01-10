@@ -1,0 +1,17 @@
+** Profile: "MAIN-test1"  [ C:\Users\Karan\Documents\PSpice\VLSI\vlsi-main-test1.sim ] 
+
+** Creating circuit file "vlsi-main-test1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad 9.1\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\vlsi-MAIN.net" 
+
+
+.END

@@ -1,0 +1,200 @@
+(ExpressProject "VLSI"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\vlsi.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\vlsi-schematic1.net"
+      (Type "Report"))
+    (File ".\vlsi-main.net"
+      (Type "Report"))
+    (File ".\vlsi-main.opt"
+      (Type "Report"))
+    (File ".\vlsi-main8.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main-test.sim"
+        (DisplayName "MAIN-test")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main-test1.sim"
+        (DisplayName "MAIN-test1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main-test2.sim"
+        (DisplayName "MAIN-test2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main-test3.sim"
+        (DisplayName "MAIN-test3")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main8-test.sim"
+        (DisplayName "MAIN8-test")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main-test4.sim"
+        (DisplayName "MAIN-test4")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main8-test5.sim"
+        (DisplayName "MAIN8-test5")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\vlsi-main-test6.sim"
+        (DisplayName "MAIN-test6")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User)
+      (File ".\VLSI.stl"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\VLSI.stl")))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (LastUsedLibraryBrowseDirectory "C:\Program Files\Orcad 9.1\Capture\Library")
+  (PartMRUSelector
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BUF
+      (FullPartName "BUF.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (DigStim2
+      (FullPartName "DigStim2.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (ADC0802
+      (FullPartName "ADC0802.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\IEC\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (TTLOS/MOD
+      (FullPartName "TTLOS/MOD.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\MISC3.OLB")
+      (DeviceIndex "0"))
+    (OPTPARAM
+      (FullPartName "OPTPARAM.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\MARKER.ETC")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakP
+      (FullPartName "MbreakP.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    ($D_LO
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    ($D_HI
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MbreakP3
+      (FullPartName "MbreakP3.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakN3
+      (FullPartName "MbreakN3.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakP3D
+      (FullPartName "MbreakP3D.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD 9.1\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "ADDER_4X4")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "AND")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "BUFFER")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "BUFFER4")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "FA")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "HA")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "MAIN8")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "VEDIC_2x2")
+      (Path "Design Resources" "C:\Users\Karan\Documents\PSpice\VLSI\vlsi.dsn"
+         "VEDIC_4x4"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 395"))
+      (Tab 0))))

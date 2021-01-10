@@ -1,0 +1,9 @@
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\breakout.lib", offset=600, size=26
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\breakout.lib", offset=575, size=26
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_prim.lib", offset=6177, size=238
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_prim.lib", offset=41531, size=27
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_prim.lib", offset=41633, size=28
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_io.lib", offset=13230, size=192
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_io.lib", offset=7572, size=261
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_io.lib", offset=38483, size=306
+ lib="C:\Program Files\Orcad 9.1\Capture\Library\PSpice\dig_io.lib", offset=12686, size=227

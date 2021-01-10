@@ -1,0 +1,42 @@
+
+**** 10/30/20 22:32:29 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\USERS\KARAN\DOCUMENTS\PSPICE\VLSI\vlsi-SCHEMATIC1-test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "vlsi-SCHEMATIC1-test.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad 9.1\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 1ns 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\vlsi-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING vlsi-SCHEMATIC1.net ****
+* source VLSI
+M_M2         N00277 N00207 0 0 MbreakN           
+C_C1         0 N00207  1f  
+M_M6         N00207 N00567 N00207 N00207 MbreakP           
+V_V1         N00207 0 1Vdc
+M_M5         N00207 N00207 N00207 N00207 MbreakP           
+M_M1         N00207 N00567 N00277 0 MbreakN           
+
+**** RESUMING vlsi-SCHEMATIC1-test.sim.cir ****
+.END
+
+ERROR -- Node N00567 is floating
